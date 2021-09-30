@@ -314,7 +314,8 @@
         padding: 22px 20px;
     }
     .promo-description {
-        padding-right: 20rem;
+        /* padding-right: 20rem; */
+        align-items: flex-start;
     }
     .brief-desktop-view {
         padding: 0;

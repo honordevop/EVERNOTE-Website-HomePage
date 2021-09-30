@@ -109,7 +109,8 @@
         padding-right: 20px;
     }
     .promo-description {
-        padding-right: 18rem;
+        margin-right: 15rem;
+        align-items: flex-start;
     }
 }
 
