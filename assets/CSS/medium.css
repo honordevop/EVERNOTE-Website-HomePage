@@ -1,0 +1,358 @@
+@media only screen and (min-width: 601px) {
+    
+    .task-icon {
+        display: block;
+    }
+
+    /* Banner */
+    .banner-description {
+        font-size: 50px;
+        line-height: 150%;
+    }
+    .banner-description-subtext {
+        font-size: 24px;
+    }
+    
+    .features-body {
+        /* height: max-content; */
+        /* border: 4px blue solid; */
+        padding: 0 20px;
+        /* margin-left: var(--mb-1-5);
+        margin-right: var(--mb-1-5); */
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+    
+
+    .footer-links-header, .footer-links {
+        font-size: 14px;
+    }
+
+
+    /* ================Evernote Teams */
+    .evernote-teams {
+        /* position: relative; */
+        display: flex;
+        flex-direction: column;
+        /* max-height: 210px; */
+        row-gap: 10px;
+    }
+    .evernote-medium-style {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .evernote-teams-amount {
+        margin-top: 1rem;
+    }
+    .features-body .feature__content:last-child  .note {
+        margin: 10px 0 0 0;
+    }
+    .navigate-mobile-svg {
+        display: none;
+    }
+    .navigate-desktop-svg {
+        display: block;
+        cursor: pointer;
+        /* position: absolute;
+        top: .5;
+        right: 1rem; */
+        
+    }
+
+    .navigate-svg {
+        position: static;
+        background-color: red;
+        height: 2rem;
+        width: 2rem;
+        /* display: none; */
+    }
+    .choose-team-cta {
+        display: none;
+    }
+
+
+    /* feature */
+    .task-img-medium, .features-desc-medium1, .task-img-medium2, .features-desc-medium3, .social-div {
+        width: calc(50% - 50px);
+        height: auto;
+        float: right;
+        margin: 0;
+    }
+    .card {
+        /* border: red 2px solid; */
+    }
+    .features-desc-medium, .task-img-medium1, .features-desc-medium2, .task-img-medium3, .language-change {
+        margin: 0;
+        width: calc(50% - 50px);
+        float: left;
+    }
+    .feature-description {
+        font-size: 24px;
+        line-height: 150%;
+    }
+    .description-header {
+        font-size: 36px;
+    }
+
+    /* Pricing Card */
+    .features__header {
+        font-size: 24px;
+    }
+    .amount, .evernote-teams-amount{
+        font-size: 36px;
+    }
+    
+
+    /* footer */
+    .global-footer {
+        padding: 80px 20px 20px 20px;
+    }
+    .social {
+        border: none;
+        padding: 0 0 35px 0;
+        
+    }
+    .social-links {
+        height: 32px;
+        width: auto;
+    }
+    .language-change {
+        padding: 10px 0 35px 0;
+        float: left;
+        width: calc(40%-50px);
+        /* border: indianred 2px solid; */
+    }
+    .social-div{
+        float: right;
+        width: calc(55% - 50px);
+        /* border: olive 2px solid; */
+    }
+    .language-social {
+        border-bottom: 1px solid #888b8d;
+        margin: 35px 0 35px 0;
+    }
+
+
+    .copyright {
+        float: left;
+        width: calc(60% - 50px);
+    }    
+    .legal {
+        float: right;
+        width: calc(40% - 50px);
+    }
+    .row-legal {
+        text-align: left;
+    }
+
+
+
+    /* header h1 {font-size: 2.85rem;}
+    header h2 {font-size: 1.5rem; }
+    header img {height: 100px;} */
+    
+   .medium-6 {width: 50%;}
+   .limited {
+    max-width: 1140px; 
+    margin: auto;
+    }
+    
+    /* nav button {display: none;}
+    nav ul {display: block;}
+    nav li {width: 25%; float: left;} */
+    
+    
+    
+} /* end of media query */
+
+
+@media only screen and (min-width: 769px) {
+    .nav-elements {
+        width: 50%;
+        right: 0;
+        left: 50%;
+    }
+    /* .feature-description {
+        float: left;
+        width: 40%;
+    } */
+
+    /* header {
+        padding: 0 98.8px;
+    } */
+    .nav-bar {
+        padding: 0 40px 0 40px;
+        /* margin: 0 98.8px; */
+    }
+    .promo {
+        display: flex;
+        flex-direction: row;
+        column-gap: 5%;
+        justify-content: center;
+        align-content: center;
+    }
+    #login-link {
+        padding: 0 0 60px 0;
+    }
+    .promo-description {
+        font-size: 20px;
+        text-align: left;
+        line-height: 100%;
+        margin: 13px 0 20px 0;
+        
+    }
+
+    .initial-4-desktop-view {
+        display: inline-block;
+    }
+
+    .mobile-brief, .hero-img-mobile {
+        display: none;
+        ;
+    }
+    .brief-desktop-view {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* border: 2px dashed red; */
+        /* padding: 0 40px; */
+    }
+    .desktop-brief {
+        /* border: 2px dashed yellow; */
+        width: 40%;
+    }
+    .hero-image {
+        width: 94%;
+        height: max-content;
+        /* border: 2px dashed blue; */
+    }
+    .hero-img-desktop {
+        padding: 0;
+        width: 100%;
+        height: auto;
+        /* border: 2px dashed rgb(166, 6, 177); */
+        /* position: relative; */
+        /* margin: 4rem 0 auto 0; */
+    }
+
+    .introduction {
+        padding: 0 15%;
+    }
+    .introduction-head {
+        font-size: 40px;
+    }
+    .introduction-txt {
+        line-height: 150%;
+        font-size: 24px;
+    }
+
+
+    .swiper-slide-desktop{
+        align-items: flex-start;
+        padding: 0 0 20px;
+    }
+    .swiper-heading-txt {
+        font-size: 18px;
+        font-weight: normal;
+        margin: 0;
+        padding: 0 0 10px;
+    }
+    .swiper-slide-desktop p {
+        font-size: 16px;
+        line-height: 150%;
+    }
+
+    .reviews-txt {
+        padding: 0 20%;
+    }
+
+
+    .video-description-txt {
+        font-size: 40px;
+    }
+    .video-description-subtxt {
+        font-size: 24px;
+    }
+
+
+    /* pricing */
+    .Destop-pricing-view {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 20px;
+    }
+    .evernote-teams{
+        max-width: 854px;
+        margin: 0 auto;
+    }
+
+    .svg-icon-features {
+        display: none;
+    }
+
+    .features-list {
+        height: max-content;
+    }
+    .feature-icon--arrow{
+        transform: rotate(0deg);
+    }
+    .feature__content {
+        height: max-content;
+    }
+    .introduction a {
+        display: block;
+    }
+    .feature-icon--arrow-right {
+        transform: rotate(-180deg);
+    }
+    .row {
+        max-width: 1220px;
+        margin: 0 auto;
+    }
+
+    .language-change {
+        justify-content: flex-start;
+    }
+}
+
+@media only screen and (min-width: 961px) {
+    .swiper-heading-txt{
+        font-weight: bold;
+    }
+    .promo {
+        padding: 22px 40px;
+    }
+    .promo-description {
+        padding-right: 20rem;
+    }
+    .brief-desktop-view {
+        padding: 0;
+    }
+    .video-description-txt {
+        font-size: 44px;
+    }
+    .desktop-brief {
+        width: 30%;
+    }
+    .find-productivity-section {
+        padding: 0 100px;
+    }
+    .review-slide{
+        font-size: 24px;
+    }
+
+}
+
+
+
+
+
+
+.card:after, .card-last:after, .language-social:after, .legal-copyright, .language-social:after {
+    clear: both;
+    content: '';
+    display: block;
+}
