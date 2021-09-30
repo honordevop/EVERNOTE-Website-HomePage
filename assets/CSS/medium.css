@@ -175,6 +175,7 @@
         right: 0;
         left: 50%;
     }
+    
     /* .feature-description {
         float: left;
         width: 40%;
@@ -190,10 +191,12 @@
     .promo {
         display: flex;
         flex-direction: row;
+        padding: 40px 20px;
         column-gap: 5%;
-        justify-content: center;
+        justify-content: space-between;
         align-content: center;
     }
+    
     #login-link {
         padding: 0 0 60px 0;
     }
@@ -207,6 +210,7 @@
 
     .initial-4-desktop-view {
         display: inline-block;
+        /* padding-left: 10px; */
     }
 
     .mobile-brief, .hero-img-mobile {
@@ -323,7 +327,7 @@
         font-weight: bold;
     }
     .promo {
-        padding: 22px 40px;
+        padding: 22px 20px;
     }
     .promo-description {
         padding-right: 20rem;
@@ -342,6 +346,11 @@
     }
     .review-slide{
         font-size: 24px;
+    }
+    
+
+    .nav-download-botton {
+        padding-right: 30px;
     }
 
 }

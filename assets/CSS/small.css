@@ -205,7 +205,7 @@ header{
     position: relative;
     width: 90%;
     left: 10%;
-    padding: 5rem 0 0 20px;
+    padding: 5rem 10px 0 10px;
     background-color: rgb(255, 255, 255);
     height: 100%;
     /* border: 2px solid red; */
@@ -401,8 +401,13 @@ hr {
 
 /* =================Promo============================== */
 
-.promo {
+.promo-section {
+    margin-top: 80px;
     background-color: var(--primary-black-color);
+}
+
+.promo {
+    /* background-color: var(--primary-black-color); */
     max-height: max-content;
     display: flex;
     justify-content: center;
