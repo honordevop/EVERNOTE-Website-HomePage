@@ -74,9 +74,7 @@
         z-index: 25;
         /* width: 100%; */
     }
-    .subMenu__content {
-        /* display: none; */
-    }
+
     .sub-menu-text {
         font-weight: bold;
     }
@@ -95,9 +93,7 @@
         font-size: 18px;
         letter-spacing: 1.5px;
     }
-    .nav-link:hover {
-        /* border-bottom: 4px yellow; */
-    }
+
     .nav-list button {
         display: block;
         background-color: transparent;
@@ -118,9 +114,7 @@
 }
 
 @media only screen and (min-width: 1400px) {
-    .nav-elements {
-        /* padding: 0 20px 0 20%; */
-    }
+
     header {
         padding: 0;
     }
